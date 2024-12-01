@@ -27,7 +27,11 @@ Este projeto contém testes de integração para a Dog API, que fornece informa�
 **Os testes cobrem os seguintes cenários:**
 
    1.Sucesso ao obter uma imagem aleatória de cachorro: Verifica se a API retorna uma resposta válida ao solicitar uma imagem de cachorro.
+   
    2.Sucesso ao obter imagens de uma raça específica: Confirma que a API responde corretamente com imagens da raça solicitada.
+   
    3.Erro ao acessar um endpoint inválido: Simula o acesso a uma rota inexistente e valida a resposta 404.
+   
    4.Erro ao solicitar imagens de uma raça inexistente: Valida o comportamento da API para uma raça que não existe.
+   
    5.Tempo de resposta da API: Garante que a API responde em um tempo aceitável (menos de 1 segundo).
